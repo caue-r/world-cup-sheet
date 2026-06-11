@@ -1,0 +1,105 @@
+﻿id,tipo,grupo,rodada,time_casa,time_visitante,data_hora_brasil,data_hora_local,estadio_id,placar_casa,placar_visitante,encerrado,status
+1,group,A,1,Mexico,South Africa,11/06/2026 16:00,06/11/2026 13:00,1,0,0,FALSE,notstarted
+2,group,A,1,South Korea,Czech Republic,11/06/2026 23:00,06/11/2026 20:00,2,0,0,FALSE,notstarted
+3,group,B,1,Canada,Bosnia and Herzegovina,12/06/2026 16:00,06/12/2026 15:00,12,0,0,FALSE,notstarted
+4,group,D,1,United States,Paraguay,12/06/2026 22:00,06/12/2026 18:00,16,0,0,FALSE,notstarted
+8,group,B,1,Qatar,Switzerland,13/06/2026 16:00,06/13/2026 12:00,15,0,0,FALSE,notstarted
+7,group,C,1,Brazil,Morocco,13/06/2026 19:00,06/13/2026 18:00,11,0,0,FALSE,notstarted
+5,group,C,1,Haiti,Scotland,13/06/2026 22:00,06/13/2026 21:00,9,0,0,FALSE,notstarted
+6,group,D,1,Australia,Turkey,14/06/2026 01:00,06/13/2026 21:00,13,0,0,FALSE,notstarted
+10,group,E,1,Germany,Curaçao,14/06/2026 14:00,06/14/2026 12:00,5,0,0,FALSE,notstarted
+11,group,F,1,Netherlands,Japan,14/06/2026 17:00,06/14/2026 15:00,4,0,0,FALSE,notstarted
+9,group,E,1,Ivory Coast,Ecuador,14/06/2026 20:00,06/14/2026 19:00,10,0,0,FALSE,notstarted
+12,group,F,1,Sweden,Tunisia,14/06/2026 23:00,06/14/2026 20:00,3,0,0,FALSE,notstarted
+14,group,H,1,Spain,Cape Verde,15/06/2026 13:00,06/15/2026 12:00,7,0,0,FALSE,notstarted
+15,group,G,1,Belgium,Egypt,15/06/2026 16:00,06/15/2026 12:00,14,0,0,FALSE,notstarted
+16,group,H,1,Saudi Arabia,Uruguay,15/06/2026 19:00,06/15/2026 18:00,8,0,0,FALSE,notstarted
+13,group,G,1,Iran,New Zealand,15/06/2026 22:00,06/15/2026 18:00,16,0,0,FALSE,notstarted
+17,group,I,1,France,Senegal,16/06/2026 16:00,06/16/2026 15:00,11,0,0,FALSE,notstarted
+18,group,I,1,Iraq,Norway,16/06/2026 19:00,06/16/2026 18:00,9,0,0,FALSE,notstarted
+19,group,J,1,Argentina,Algeria,16/06/2026 22:00,06/16/2026 20:00,6,0,0,FALSE,notstarted
+20,group,J,1,Austria,Jordan,17/06/2026 01:00,06/16/2026 21:00,15,0,0,FALSE,notstarted
+21,group,K,1,Portugal,Democratic Republic of the Congo,17/06/2026 14:00,06/17/2026 12:00,5,0,0,FALSE,notstarted
+22,group,L,1,England,Croatia,17/06/2026 17:00,06/17/2026 15:00,4,0,0,FALSE,notstarted
+24,group,L,1,Ghana,Panama,17/06/2026 20:00,06/17/2026 19:00,12,0,0,FALSE,notstarted
+23,group,K,1,Uzbekistan,Colombia,17/06/2026 23:00,06/17/2026 20:00,1,0,0,FALSE,notstarted
+28,group,A,2,Czech Republic,South Africa,18/06/2026 13:00,06/18/2026 12:00,7,0,0,FALSE,notstarted
+26,group,B,2,Switzerland,Bosnia and Herzegovina,18/06/2026 16:00,06/18/2026 12:00,16,0,0,FALSE,notstarted
+27,group,B,2,Canada,Qatar,18/06/2026 19:00,06/18/2026 15:00,13,0,0,FALSE,notstarted
+25,group,A,2,Mexico,South Korea,18/06/2026 22:00,06/18/2026 19:00,2,0,0,FALSE,notstarted
+31,group,D,2,United States,Australia,19/06/2026 16:00,06/19/2026 12:00,14,0,0,FALSE,notstarted
+30,group,C,2,Scotland,Morocco,19/06/2026 19:00,06/19/2026 18:00,9,0,0,FALSE,notstarted
+29,group,C,2,Brazil,Haiti,19/06/2026 22:00,06/19/2026 21:00,10,0,0,FALSE,notstarted
+32,group,D,2,Turkey,Paraguay,20/06/2026 00:00,06/19/2026 20:00,15,0,0,FALSE,notstarted
+35,group,F,2,Netherlands,Sweden,20/06/2026 14:00,06/20/2026 12:00,5,0,0,FALSE,notstarted
+33,group,E,2,Germany,Ivory Coast,20/06/2026 17:00,06/20/2026 16:00,12,0,0,FALSE,notstarted
+34,group,E,2,Ecuador,Curaçao,20/06/2026 21:00,06/20/2026 19:00,6,0,0,FALSE,notstarted
+36,group,F,2,Tunisia,Japan,21/06/2026 01:00,06/20/2026 22:00,3,0,0,FALSE,notstarted
+39,group,H,2,Spain,Saudi Arabia,21/06/2026 13:00,06/21/2026 12:00,7,0,0,FALSE,notstarted
+37,group,G,2,Belgium,Iran,21/06/2026 16:00,06/21/2026 12:00,16,0,0,FALSE,notstarted
+40,group,H,2,Uruguay,Cape Verde,21/06/2026 19:00,06/21/2026 18:00,8,0,0,FALSE,notstarted
+38,group,G,2,New Zealand,Egypt,21/06/2026 22:00,06/21/2026 18:00,13,0,0,FALSE,notstarted
+43,group,J,2,Argentina,Austria,22/06/2026 14:00,06/22/2026 12:00,4,0,0,FALSE,notstarted
+41,group,I,2,France,Iraq,22/06/2026 18:00,06/22/2026 17:00,10,0,0,FALSE,notstarted
+42,group,I,2,Norway,Senegal,22/06/2026 21:00,06/22/2026 20:00,11,0,0,FALSE,notstarted
+44,group,J,2,Jordan,Algeria,23/06/2026 00:00,06/22/2026 20:00,15,0,0,FALSE,notstarted
+45,group,K,2,Portugal,Uzbekistan,23/06/2026 14:00,06/23/2026 12:00,5,0,0,FALSE,notstarted
+48,group,L,2,England,Ghana,23/06/2026 17:00,06/23/2026 16:00,9,0,0,FALSE,notstarted
+46,group,L,2,Panama,Croatia,23/06/2026 20:00,06/23/2026 19:00,12,0,0,FALSE,notstarted
+47,group,K,2,Colombia,Democratic Republic of the Congo,23/06/2026 23:00,06/23/2026 20:00,2,0,0,FALSE,notstarted
+53,group,B,3,Bosnia and Herzegovina,Qatar,24/06/2026 16:00,06/24/2026 12:00,14,0,0,FALSE,notstarted
+54,group,B,3,Switzerland,Canada,24/06/2026 16:00,06/24/2026 12:00,13,0,0,FALSE,notstarted
+49,group,C,3,Scotland,Brazil,24/06/2026 19:00,06/24/2026 18:00,8,0,0,FALSE,notstarted
+50,group,C,3,Morocco,Haiti,24/06/2026 19:00,06/24/2026 18:00,7,0,0,FALSE,notstarted
+51,group,A,3,South Africa,South Korea,24/06/2026 22:00,06/24/2026 19:00,3,0,0,FALSE,notstarted
+52,group,A,3,Czech Republic,Mexico,24/06/2026 22:00,06/24/2026 19:00,1,0,0,FALSE,notstarted
+55,group,E,3,Curaçao,Ivory Coast,25/06/2026 17:00,06/25/2026 16:00,10,0,0,FALSE,notstarted
+56,group,E,3,Ecuador,Germany,25/06/2026 17:00,06/25/2026 16:00,11,0,0,FALSE,notstarted
+59,group,F,3,Japan,Sweden,25/06/2026 20:00,06/25/2026 18:00,4,0,0,FALSE,notstarted
+60,group,F,3,Tunisia,Netherlands,25/06/2026 20:00,06/25/2026 18:00,6,0,0,FALSE,notstarted
+57,group,D,3,Paraguay,Australia,25/06/2026 23:00,06/25/2026 19:00,15,0,0,FALSE,notstarted
+58,group,D,3,Turkey,United States,25/06/2026 23:00,06/25/2026 19:00,16,0,0,FALSE,notstarted
+61,group,I,3,Senegal,Iraq,26/06/2026 16:00,06/26/2026 15:00,12,0,0,FALSE,notstarted
+62,group,I,3,Norway,France,26/06/2026 16:00,06/26/2026 15:00,9,0,0,FALSE,notstarted
+65,group,H,3,Cape Verde,Saudi Arabia,26/06/2026 21:00,06/26/2026 19:00,5,0,0,FALSE,notstarted
+66,group,H,3,Uruguay,Spain,26/06/2026 21:00,06/26/2026 18:00,2,0,0,FALSE,notstarted
+63,group,G,3,Egypt,Iran,27/06/2026 00:00,06/26/2026 20:00,14,0,0,FALSE,notstarted
+64,group,G,3,New Zealand,Belgium,27/06/2026 00:00,06/26/2026 20:00,13,0,0,FALSE,notstarted
+67,group,L,3,Panama,England,27/06/2026 18:00,06/27/2026 17:00,11,0,0,FALSE,notstarted
+68,group,L,3,Croatia,Ghana,27/06/2026 18:00,06/27/2026 17:00,10,0,0,FALSE,notstarted
+71,group,K,3,Colombia,Portugal,27/06/2026 20:30,06/27/2026 19:30,8,0,0,FALSE,notstarted
+72,group,K,3,Democratic Republic of the Congo,Uzbekistan,27/06/2026 20:30,06/27/2026 19:30,7,0,0,FALSE,notstarted
+69,group,J,3,Algeria,Austria,27/06/2026 23:00,06/27/2026 21:00,6,0,0,FALSE,notstarted
+70,group,J,3,Jordan,Argentina,27/06/2026 23:00,06/27/2026 21:00,4,0,0,FALSE,notstarted
+73,r32,R32,4,,,28/06/2026 16:00,06/28/2026 12:00,16,0,0,FALSE,notstarted
+76,r32,R32,4,,,29/06/2026 14:00,06/29/2026 12:00,5,0,0,FALSE,notstarted
+74,r32,R32,4,,,29/06/2026 17:30,06/29/2026 16:30,9,0,0,FALSE,notstarted
+75,r32,R32,4,,,29/06/2026 22:00,06/29/2026 19:00,3,0,0,FALSE,notstarted
+78,r32,R32,4,,,30/06/2026 14:00,06/30/2026 12:00,4,0,0,FALSE,notstarted
+77,r32,R32,4,,,30/06/2026 18:00,06/30/2026 17:00,11,0,0,FALSE,notstarted
+79,r32,R32,4,,,30/06/2026 22:00,06/30/2026 19:00,1,0,0,FALSE,notstarted
+80,r32,R32,4,,,01/07/2026 13:00,07/01/2026 12:00,7,0,0,FALSE,notstarted
+82,r32,R32,4,,,01/07/2026 17:00,07/01/2026 13:00,14,0,0,FALSE,notstarted
+81,r32,R32,4,,,01/07/2026 21:00,07/01/2026 17:00,15,0,0,FALSE,notstarted
+84,r32,R32,4,,,02/07/2026 16:00,07/02/2026 12:00,16,0,0,FALSE,notstarted
+83,r32,R32,4,,,02/07/2026 20:00,07/02/2026 19:00,12,0,0,FALSE,notstarted
+85,r32,R32,4,,,03/07/2026 00:00,07/02/2026 20:00,13,0,0,FALSE,notstarted
+88,r32,R32,4,,,03/07/2026 15:00,07/03/2026 13:00,4,0,0,FALSE,notstarted
+86,r32,R32,4,,,03/07/2026 19:00,07/03/2026 18:00,8,0,0,FALSE,notstarted
+87,r32,R32,4,,,03/07/2026 22:30,07/03/2026 20:30,6,0,0,FALSE,notstarted
+90,r16,R16,5,,,04/07/2026 14:00,07/04/2026 12:00,5,0,0,FALSE,notstarted
+89,r16,R16,5,,,04/07/2026 18:00,07/04/2026 17:00,10,0,0,FALSE,notstarted
+91,r16,R16,5,,,05/07/2026 17:00,07/05/2026 16:00,11,0,0,FALSE,notstarted
+92,r16,R16,5,,,05/07/2026 21:00,07/05/2026 18:00,1,0,0,FALSE,notstarted
+93,r16,R16,5,,,06/07/2026 16:00,07/06/2026 14:00,4,0,0,FALSE,notstarted
+94,r16,R16,5,,,06/07/2026 21:00,07/06/2026 17:00,14,0,0,FALSE,notstarted
+95,r16,R16,5,,,07/07/2026 13:00,07/07/2026 12:00,7,0,0,FALSE,notstarted
+96,r16,R16,5,,,07/07/2026 17:00,07/07/2026 13:00,13,0,0,FALSE,notstarted
+97,qf,QF,6,,,09/07/2026 17:00,07/09/2026 16:00,9,0,0,FALSE,notstarted
+98,qf,QF,6,,,10/07/2026 16:00,07/10/2026 12:00,16,0,0,FALSE,notstarted
+99,qf,QF,6,,,11/07/2026 18:00,07/11/2026 17:00,8,0,0,FALSE,notstarted
+100,qf,QF,6,,,11/07/2026 22:00,07/11/2026 20:00,6,0,0,FALSE,notstarted
+101,sf,SF,7,,,14/07/2026 16:00,07/14/2026 14:00,4,0,0,FALSE,notstarted
+102,sf,SF,7,,,15/07/2026 16:00,07/15/2026 15:00,7,0,0,FALSE,notstarted
+103,third,3RD,8,,,18/07/2026 18:00,07/18/2026 17:00,8,0,0,FALSE,notstarted
+104,final,FINAL,9,,,19/07/2026 16:00,07/19/2026 15:00,11,0,0,FALSE,notstarted
