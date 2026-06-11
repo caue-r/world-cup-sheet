@@ -1,8 +1,13 @@
 import csv
-import sys
+import os
 from datetime import datetime
 
+import gspread
 import requests
+from dotenv import load_dotenv
+from google.oauth2.service_account import Credentials
+
+load_dotenv()
 
 try:
     from zoneinfo import ZoneInfo
@@ -11,6 +16,9 @@ except ImportError:
 
 API_URL = "https://worldcup26.ir/get/games"
 OUTPUT_FILE = "worldcup2026_games.csv"
+CREDENTIALS_FILE = os.environ["CREDENTIALS_FILE"]
+SPREADSHEET_ID = os.environ["SPREADSHEET_ID"]
+SHEET_NAME = os.environ["SHEET_NAME"]
 BRAZIL_TZ = ZoneInfo("America/Sao_Paulo")
 
 # Fuso horário de cada estádio pelo stadium_id da API
@@ -98,11 +106,33 @@ def save_csv(rows: list[dict], path: str) -> None:
         writer.writerows(rows)
 
 
+def push_to_sheets(rows: list[dict]) -> None:
+    scopes = [
+        "https://www.googleapis.com/auth/spreadsheets",
+        "https://www.googleapis.com/auth/drive",
+    ]
+    creds = Credentials.from_service_account_file(CREDENTIALS_FILE, scopes=scopes)
+    client = gspread.authorize(creds)
+    spreadsheet = client.open_by_key(SPREADSHEET_ID)
+
+    try:
+        sheet = spreadsheet.worksheet(SHEET_NAME)
+        sheet.clear()
+    except gspread.exceptions.WorksheetNotFound:
+        sheet = spreadsheet.add_worksheet(title=SHEET_NAME, rows=200, cols=20)
+
+    headers = list(rows[0].keys())
+    data = [headers] + [[r[h] for h in headers] for r in rows]
+    sheet.update(data, value_input_option="USER_ENTERED")
+    print(f"Planilha '{SHEET_NAME}' atualizada com {len(rows)} jogos.")
+
+
 def main() -> None:
     games = fetch_games()
     rows = build_rows(games)
     save_csv(rows, OUTPUT_FILE)
     print(f"{len(rows)} jogos salvos em '{OUTPUT_FILE}'")
+    push_to_sheets(rows)
 
 
 if __name__ == "__main__":
